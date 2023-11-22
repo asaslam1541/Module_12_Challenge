@@ -1,5 +1,4 @@
-# Module_12_Challenge
-**Credit Risk Analysis Report**
+# Credit Risk Analysis Report
 
 **Overview:**
 
