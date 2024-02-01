@@ -12,9 +12,9 @@ The purpose of this analysis is to assess the performance of two machine learnin
 - Recall (High-Risk Loan - Label 1): 0.85
 
 *Logistic Regression Model with Resampled Data:*
-- Balanced Accuracy Score: 0.9128
-- Precision (High-Risk Loan - Label 1): 0.91
-- Recall (High-Risk Loan - Label 1): 0.83
+- Balanced Accuracy Score: 0.9205
+- Precision (High-Risk Loan - Label 1): 0.99
+- Recall (High-Risk Loan - Label 1): 0.84
 
 **Summary:**
 
@@ -26,11 +26,11 @@ Both machine learning models performed well in predicting credit risk, but there
 - Recall for high-risk loans (label 1) is 0.85, indicating that the model correctly identifies 85% of the actual high-risk loans.
 
 *Logistic Regression Model with Resampled Data:*
-- The model achieved a slightly lower balanced accuracy score of 0.9128 compared to the original data model.
-- Precision for high-risk loans (label 1) remains at 0.91, indicating consistent accuracy in identifying high-risk loans.
-- Recall for high-risk loans (label 1) decreased to 0.83, suggesting that the resampled data model misses more actual high-risk loans compared to the original data model.
+- The model achieved a slightly lower balanced accuracy score of 0.9205 compared to the original data model.
+- Precision for high-risk loans (label 1) increased to 0.99, indicating consistent accuracy in identifying high-risk loans.
+- Recall for high-risk loans (label 1) decreased to 0.84, suggesting that the resampled data model misses more actual high-risk loans compared to the original data model.
 
-In summary, both models are effective in predicting credit risk, but the logistic regression model trained on the original data slightly outperforms the model trained on resampled data. The original data model has a higher balanced accuracy score and better recall for high-risk loans. 
+In summary, both models are effective in predicting credit risk, but the logistic regression model trained on the original data slightly outperforms the model trained on resampled data for accuracy and recall; however, for precision the oversampled data provides a much better answer. 
 
 **Recommendation**:
 - It is recommended to use the logistic regression model trained on the original data for credit risk prediction. It provides a slightly better overall performance, especially in correctly identifying high-risk loans. However, it is crucial to continue monitoring and improving the model's performance as the dataset evolves and more data becomes available.
